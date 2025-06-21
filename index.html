@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>W6 Assignment: Web Page</title>
+    <style>
+        /* Basic Reset & Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        header, main, footer {
+            max-width: 900px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        .image-gallery {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Page Header -->
+    <header>
+        <h1>Welcome to My HTML5 Assignment</h1>
+        <p>This page is built using basic HTML and CSS as part of my Web Design course.</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h2>About This Page</h2>
+        <p>Here you'll find a simple example of using semantic HTML5 elements, internal CSS styling, and accessible design techniques. It was tested on Chrome, Firefox, and Edge browsers for consistency.</p>
+
+        <h2>Image Gallery</h2>
+        <div class="image-gallery">
+            <img src="https://placecats.com/neo/300/200" alt="image of a cat, Neo, (300x200)">
+            <img src="https://placecats.com/millie/300/150" alt="image of a cat, Millie, (300x150)">
+            <img src="https://placecats.com/millie_neo/300/200%22" alt="image of a cats, Millie & Neo, (300x200)">
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Created by [Your Name] | W6 Assignment | Tested using <a href="https://htmlpreview.github.io/">GitHub HTML Previewer</a></p>
+    </footer>
+
+</body>
+</html>
